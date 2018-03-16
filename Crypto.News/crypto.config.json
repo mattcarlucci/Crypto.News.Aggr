@@ -1,0 +1,32 @@
+{
+  "Interval": 86400,
+  "SaveStories": false,
+  "Database": "Crypto.News.CIK_News",
+  "Email": {
+    "EnableEmail": false,
+    "SmtpHost": "smtp.host.com",
+    "SmtpPort": 25,
+    "UseSsl": true,
+    "UserName": "user@domain.com",
+    "Password": "",
+    "From": {
+      "Email": "user@domain.com",
+      "Description": "Crypto News",
+      "Active": false
+    },
+    "To": [
+      {
+        "Email": "user1@domain.com",
+        "Description": null,
+        "Active": false
+      },
+      {
+        "Email": "user2@domain.com",
+        "Description": null,
+        "Active": false
+      }
+    ],
+    "Cc": [],
+    "Bcc": []
+  }
+}
